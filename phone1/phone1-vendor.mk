@@ -55,8 +55,11 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/phone1/proprietary/system/etc/richtapresources/common_notification2.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/common_notification2.he \
     vendor/nothing/phone1/proprietary/system/etc/richtapresources/common_ringtone1.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/common_ringtone1.he \
     vendor/nothing/phone1/proprietary/system/etc/richtapresources/common_ringtone2.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/common_ringtone2.he \
+    vendor/nothing/phone1/proprietary/system/etc/richtapresources/cough.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/cough.he \
+    vendor/nothing/phone1/proprietary/system/etc/richtapresources/fox.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/fox.he \
     vendor/nothing/phone1/proprietary/system/etc/richtapresources/frogs.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/frogs.he \
     vendor/nothing/phone1/proprietary/system/etc/richtapresources/gamma.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/gamma.he \
+    vendor/nothing/phone1/proprietary/system/etc/richtapresources/gargle.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/gargle.he \
     vendor/nothing/phone1/proprietary/system/etc/richtapresources/guiro.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/guiro.he \
     vendor/nothing/phone1/proprietary/system/etc/richtapresources/incoming.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/incoming.he \
     vendor/nothing/phone1/proprietary/system/etc/richtapresources/isolator.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/isolator.he \
@@ -65,11 +68,18 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/phone1/proprietary/system/etc/richtapresources/nope.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/nope.he \
     vendor/nothing/phone1/proprietary/system/etc/richtapresources/nothing.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/nothing.he \
     vendor/nothing/phone1/proprietary/system/etc/richtapresources/oi!.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/oi!.he \
+    vendor/nothing/phone1/proprietary/system/etc/richtapresources/pep.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/pep.he \
     vendor/nothing/phone1/proprietary/system/etc/richtapresources/prong.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/prong.he \
     vendor/nothing/phone1/proprietary/system/etc/richtapresources/ramble.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/ramble.he \
+    vendor/nothing/phone1/proprietary/system/etc/richtapresources/simmer.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/simmer.he \
+    vendor/nothing/phone1/proprietary/system/etc/richtapresources/skim.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/skim.he \
     vendor/nothing/phone1/proprietary/system/etc/richtapresources/squiggle.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/squiggle.he \
     vendor/nothing/phone1/proprietary/system/etc/richtapresources/transmission.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/transmission.he \
     vendor/nothing/phone1/proprietary/system/etc/richtapresources/volley.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/volley.he \
+    vendor/nothing/phone1/proprietary/system/etc/richtapresources/why.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/why.he \
+    vendor/nothing/phone1/proprietary/system/etc/richtapresources/woo.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/woo.he \
+    vendor/nothing/phone1/proprietary/system/etc/richtapresources/yeh.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/yeh.he \
+    vendor/nothing/phone1/proprietary/system/etc/richtapresources/zip.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/zip.he \
     vendor/nothing/phone1/proprietary/system/lib64/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libarcsoft_beautyshot.so \
     vendor/nothing/phone1/proprietary/system/lib64/libarcsoft_hdr_detection.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libarcsoft_hdr_detection.so \
     vendor/nothing/phone1/proprietary/system/lib64/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libarcsoft_high_dynamic_range.so \
@@ -237,6 +247,7 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/phone1/proprietary/vendor/bin/modemManager:$(TARGET_COPY_OUT_VENDOR)/bin/modemManager \
     vendor/nothing/phone1/proprietary/vendor/bin/mutualex:$(TARGET_COPY_OUT_VENDOR)/bin/mutualex \
     vendor/nothing/phone1/proprietary/vendor/bin/netmgrd:$(TARGET_COPY_OUT_VENDOR)/bin/netmgrd \
+    vendor/nothing/phone1/proprietary/vendor/bin/ntf-service:$(TARGET_COPY_OUT_VENDOR)/bin/ntf-service \
     vendor/nothing/phone1/proprietary/vendor/bin/pd-mapper:$(TARGET_COPY_OUT_VENDOR)/bin/pd-mapper \
     vendor/nothing/phone1/proprietary/vendor/bin/pm-proxy:$(TARGET_COPY_OUT_VENDOR)/bin/pm-proxy \
     vendor/nothing/phone1/proprietary/vendor/bin/pm-service:$(TARGET_COPY_OUT_VENDOR)/bin/pm-service \
@@ -381,6 +392,7 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/phone1/proprietary/vendor/etc/init/init.Spacewar.nfc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.Spacewar.nfc.rc \
     vendor/nothing/phone1/proprietary/vendor/etc/init/init.Spacewar.se.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.Spacewar.se.rc \
     vendor/nothing/phone1/proprietary/vendor/etc/init/init.embmssl_server.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.embmssl_server.rc \
+    vendor/nothing/phone1/proprietary/vendor/etc/init/init.ntf.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.ntf.rc \
     vendor/nothing/phone1/proprietary/vendor/etc/init/init.qti.qcv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.qcv.rc \
     vendor/nothing/phone1/proprietary/vendor/etc/init/init.time_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.time_daemon.rc \
     vendor/nothing/phone1/proprietary/vendor/etc/init/init.vendor.sensors.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.sensors.rc \
