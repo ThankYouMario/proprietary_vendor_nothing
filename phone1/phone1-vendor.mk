@@ -9,7 +9,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/phone1/proprietary/odm/etc/aac_richtap.config:$(TARGET_COPY_OUT_ODM)/etc/aac_richtap.config \
     vendor/nothing/phone1/proprietary/system/etc/permissions/advancedSample_camera_extensions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/advancedSample_camera_extensions.xml \
     vendor/nothing/phone1/proprietary/system/etc/permissions/se.dirac.acs.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/se.dirac.acs.xml \
-    vendor/nothing/phone1/proprietary/system/etc/public.libraries.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/public.libraries.txt \
     vendor/nothing/phone1/proprietary/system/etc/richtapresources/1.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/1.he \
     vendor/nothing/phone1/proprietary/system/etc/richtapresources/10.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/10.he \
     vendor/nothing/phone1/proprietary/system/etc/richtapresources/11.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/11.he \
@@ -80,11 +79,18 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/phone1/proprietary/system/etc/richtapresources/woo.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/woo.he \
     vendor/nothing/phone1/proprietary/system/etc/richtapresources/yeh.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/yeh.he \
     vendor/nothing/phone1/proprietary/system/etc/richtapresources/zip.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/zip.he \
+    vendor/nothing/phone1/proprietary/system/lib/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_beautyshot.so \
+    vendor/nothing/phone1/proprietary/system/lib/libarcsoft_hdr_detection.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_hdr_detection.so \
+    vendor/nothing/phone1/proprietary/system/lib/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_high_dynamic_range.so \
+    vendor/nothing/phone1/proprietary/system/lib/libarcsoft_low_light_hdr.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_low_light_hdr.so \
+    vendor/nothing/phone1/proprietary/system/lib/libarcsoft_singlecam_bokeh.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_singlecam_bokeh.so \
+    vendor/nothing/phone1/proprietary/system/lib/libmpbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmpbase.so \
     vendor/nothing/phone1/proprietary/system/lib64/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libarcsoft_beautyshot.so \
     vendor/nothing/phone1/proprietary/system/lib64/libarcsoft_hdr_detection.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libarcsoft_hdr_detection.so \
     vendor/nothing/phone1/proprietary/system/lib64/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libarcsoft_high_dynamic_range.so \
     vendor/nothing/phone1/proprietary/system/lib64/libarcsoft_low_light_hdr.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libarcsoft_low_light_hdr.so \
     vendor/nothing/phone1/proprietary/system/lib64/libarcsoft_singlecam_bokeh.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libarcsoft_singlecam_bokeh.so \
+    vendor/nothing/phone1/proprietary/system/lib64/libmpbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmpbase.so \
     vendor/nothing/phone1/proprietary/system_ext/etc/hdr_config/ans_off/ans_config.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/hdr_config/ans_off/ans_config.txt \
     vendor/nothing/phone1/proprietary/system_ext/etc/hdr_config/ans_on/ans_config.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/hdr_config/ans_on/ans_config.txt \
     vendor/nothing/phone1/proprietary/system_ext/etc/hdr_config/main_inv_ls/RPP_BiquadHPF_config.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/hdr_config/main_inv_ls/RPP_BiquadHPF_config.txt \
@@ -188,9 +194,10 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/phone1/proprietary/system_ext/etc/hdr_config/wnr_on/wnr_config.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/hdr_config/wnr_on/wnr_config.txt \
     vendor/nothing/phone1/proprietary/system_ext/etc/hdr_config/wnr_on/wnr_params.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/hdr_config/wnr_on/wnr_params.txt \
     vendor/nothing/phone1/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
+    vendor/nothing/phone1/proprietary/system_ext/lib/libcamxextension_algo.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libcamxextension_algo.so \
+    vendor/nothing/phone1/proprietary/system_ext/lib/libencoderjpeg_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libencoderjpeg_jni.so \
     vendor/nothing/phone1/proprietary/system_ext/lib64/libcamxextension_algo.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libcamxextension_algo.so \
     vendor/nothing/phone1/proprietary/system_ext/lib64/libencoderjpeg_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libencoderjpeg_jni.so \
-    vendor/nothing/phone1/proprietary/system_ext/lib64/libofflineproc_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libofflineproc_jni.so \
     vendor/nothing/phone1/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
     vendor/nothing/phone1/proprietary/vendor/bin/adpl:$(TARGET_COPY_OUT_VENDOR)/bin/adpl \
     vendor/nothing/phone1/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
