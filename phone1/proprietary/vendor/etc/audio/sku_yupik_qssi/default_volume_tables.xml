@@ -68,9 +68,9 @@
     <reference name="DEFAULT_DEVICE_CATEGORY_HEADSET_VOLUME_CURVE">
     <!--Default Volume Curve -->
         <point>1,-4950</point>
-        <point>33,-3400</point>
-        <point>66,-1800</point>
-        <point>100,-1200</point>
+        <point>33,-3800</point>
+        <point>66,-2800</point>
+        <point>100,-2000</point>
     </reference>
     <!-- start xie.chuangzhe, 2022/02/24,Add for voice volume -->
     <reference name="DEFAULT_MEDIA_VOLUME_CURVE_A2DP">
