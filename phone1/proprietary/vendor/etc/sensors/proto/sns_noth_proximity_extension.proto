@@ -1,0 +1,46 @@
+// @file sns_noth_proximity_extension.proto
+//
+// Defines the API for Noth Proximity Sensors.
+//
+// Copyright (c) 2023-2024 Nothing Technologies, Inc.
+// All Rights Reserved.
+// Confidential and Proprietary - Nothing Technologies, Inc.
+
+syntax = "proto2";
+import "nanopb.proto";
+import "sns_proximity.proto";
+import "sns_std_sensor.proto";
+
+// Message IDs for proximity Sensor
+enum sns_noth_proximity_msgid {
+  option (nanopb_enumopt).long_names = false;
+
+  // Uses message: sns_noth_proximity_event
+  // Purpose: A non-recurring output data event from the proximity sensor to its client.
+  SNS_PROXIMITY_MSGID_SNS_NOTH_PROXIMITY_EVENT = 2500;
+}
+
+// Events types from proximity Sensor
+message sns_noth_proximity_event
+{
+  // Proximity NEAR/FAR output event
+  required sns_proximity_event_type proximity_event_type = 1 [default = SNS_PROXIMITY_EVENT_TYPE_FAR];
+
+  // Proimity sensor raw data
+  required uint32 raw_adc = 2;
+
+  // Proximity sensor sample status
+  required sns_std_sensor_sample_status status = 3 [default = SNS_STD_SENSOR_SAMPLE_STATUS_UNRELIABLE];
+
+  // Proimity sensor base data
+  required uint32 proximity_base = 4;
+
+  // Proimity sensor near threshold
+  required uint32 proximity_near_thd = 5;
+
+  // Proimity sensor far threshold
+  required uint32 proximity_far_thd = 6;
+
+  // Proimity sensor factory base
+  required uint32 proximity_fac_base = 7;
+}

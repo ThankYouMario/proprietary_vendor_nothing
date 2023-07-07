@@ -66,15 +66,6 @@ message sns_proximity_event
 
   // Proximity sensor sample status
   required sns_std_sensor_sample_status status = 3 [default = SNS_STD_SENSOR_SAMPLE_STATUS_UNRELIABLE];
-
-  // Proimity sensor base data
-  required uint32 proximity_base = 4;
-
-  // Proimity sensor near threshold
-  required uint32 proximity_near_thd = 5;
-
-  // Proimity sensor far threshold
-  required uint32 proximity_far_thd = 6;
 }
 
 message sns_proximity_event_recurrent
