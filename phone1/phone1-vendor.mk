@@ -9,87 +9,8 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/phone1/proprietary/odm/etc/aac_richtap.config:$(TARGET_COPY_OUT_ODM)/etc/aac_richtap.config \
     vendor/nothing/phone1/proprietary/system/etc/permissions/advancedSample_camera_extensions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/advancedSample_camera_extensions.xml \
     vendor/nothing/phone1/proprietary/system/etc/permissions/se.dirac.acs.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/se.dirac.acs.xml \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/1.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/1.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/10.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/10.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/11.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/11.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/12.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/12.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/13.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/13.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/14.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/14.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/15.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/15.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/16.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/16.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/17.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/17.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/18.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/18.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/19.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/19.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/2.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/2.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/20.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/20.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/21.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/21.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/22.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/22.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/3.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/3.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/4.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/4.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/5.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/5.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/6.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/6.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/7.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/7.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/8.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/8.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/9.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/9.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/NT_OnOff_button.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/NT_OnOff_button.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/NT_Silence.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/NT_Silence.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/NT_camera_photo.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/NT_camera_photo.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/NT_camera_zoom.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/NT_camera_zoom.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/NT_charge.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/NT_charge.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/NT_letters_navi.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/NT_letters_navi.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/NT_notification1.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/NT_notification1.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/NT_notification2.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/NT_notification2.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/NT_notification3.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/NT_notification3.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/NT_ringtone1.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/NT_ringtone1.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/NT_ringtone2.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/NT_ringtone2.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/NT_ringtone3.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/NT_ringtone3.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/NT_unlock_error.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/NT_unlock_error.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/NT_unlock_successful.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/NT_unlock_successful.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/beak.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/beak.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/bedside.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/bedside.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/bulb_one.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/bulb_one.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/bulb_two.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/bulb_two.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/coil.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/coil.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/common_notification1.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/common_notification1.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/common_notification2.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/common_notification2.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/common_ringtone1.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/common_ringtone1.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/common_ringtone2.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/common_ringtone2.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/cough.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/cough.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/fox.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/fox.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/frogs.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/frogs.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/gamma.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/gamma.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/gargle.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/gargle.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/guiro.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/guiro.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/incoming.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/incoming.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/isolator.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/isolator.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/kashio.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/kashio.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/munge.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/munge.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/nope.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/nope.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/nothing.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/nothing.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/oi!.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/oi!.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/pep.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/pep.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/prong.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/prong.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/ramble.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/ramble.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/simmer.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/simmer.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/skim.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/skim.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/squiggle.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/squiggle.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/transmission.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/transmission.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/volley.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/volley.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/why.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/why.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/woo.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/woo.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/yeh.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/yeh.he \
-    vendor/nothing/phone1/proprietary/system/etc/richtapresources/zip.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/zip.he \
-    vendor/nothing/phone1/proprietary/system/lib/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_beautyshot.so \
-    vendor/nothing/phone1/proprietary/system/lib/libarcsoft_hdr_detection.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_hdr_detection.so \
-    vendor/nothing/phone1/proprietary/system/lib/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_high_dynamic_range.so \
-    vendor/nothing/phone1/proprietary/system/lib/libarcsoft_low_light_hdr.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_low_light_hdr.so \
-    vendor/nothing/phone1/proprietary/system/lib/libarcsoft_singlecam_bokeh.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_singlecam_bokeh.so \
+    vendor/nothing/phone1/proprietary/system/etc/sysconfig/preinstalled-packages-dirac.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/preinstalled-packages-dirac.xml \
     vendor/nothing/phone1/proprietary/system/lib/libmpbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmpbase.so \
-    vendor/nothing/phone1/proprietary/system/lib64/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libarcsoft_beautyshot.so \
-    vendor/nothing/phone1/proprietary/system/lib64/libarcsoft_hdr_detection.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libarcsoft_hdr_detection.so \
-    vendor/nothing/phone1/proprietary/system/lib64/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libarcsoft_high_dynamic_range.so \
-    vendor/nothing/phone1/proprietary/system/lib64/libarcsoft_low_light_hdr.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libarcsoft_low_light_hdr.so \
-    vendor/nothing/phone1/proprietary/system/lib64/libarcsoft_singlecam_bokeh.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libarcsoft_singlecam_bokeh.so \
     vendor/nothing/phone1/proprietary/system/lib64/libmpbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmpbase.so \
     vendor/nothing/phone1/proprietary/system_ext/etc/hdr_config/ans_off/ans_config.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/hdr_config/ans_off/ans_config.txt \
     vendor/nothing/phone1/proprietary/system_ext/etc/hdr_config/ans_on/ans_config.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/hdr_config/ans_on/ans_config.txt \
@@ -194,9 +115,7 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/phone1/proprietary/system_ext/etc/hdr_config/wnr_on/wnr_config.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/hdr_config/wnr_on/wnr_config.txt \
     vendor/nothing/phone1/proprietary/system_ext/etc/hdr_config/wnr_on/wnr_params.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/hdr_config/wnr_on/wnr_params.txt \
     vendor/nothing/phone1/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
-    vendor/nothing/phone1/proprietary/system_ext/lib/libcamxextension_algo.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libcamxextension_algo.so \
     vendor/nothing/phone1/proprietary/system_ext/lib/libencoderjpeg_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libencoderjpeg_jni.so \
-    vendor/nothing/phone1/proprietary/system_ext/lib64/libcamxextension_algo.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libcamxextension_algo.so \
     vendor/nothing/phone1/proprietary/system_ext/lib64/libencoderjpeg_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libencoderjpeg_jni.so \
     vendor/nothing/phone1/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
     vendor/nothing/phone1/proprietary/vendor/bin/adpl:$(TARGET_COPY_OUT_VENDOR)/bin/adpl \
@@ -219,7 +138,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/phone1/proprietary/vendor/bin/hw/android.hardware.keymaster@4.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.0-service-qti \
     vendor/nothing/phone1/proprietary/vendor/bin/hw/android.hardware.keymaster@4.1-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.1-service-qti \
     vendor/nothing/phone1/proprietary/vendor/bin/hw/android.hardware.nfc_snxxx@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.nfc_snxxx@1.2-service \
-    vendor/nothing/phone1/proprietary/vendor/bin/hw/android.hardware.secure_element_snxxx@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.secure_element_snxxx@1.2-service \
     vendor/nothing/phone1/proprietary/vendor/bin/hw/qcrilNrd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/qcrilNrd \
     vendor/nothing/phone1/proprietary/vendor/bin/hw/vendor.noth.hardware.sensor.sensor_extension@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.noth.hardware.sensor.sensor_extension@1.0-service \
     vendor/nothing/phone1/proprietary/vendor/bin/hw/vendor.qti.esepowermanager@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.esepowermanager@1.1-service \
@@ -243,7 +161,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/phone1/proprietary/vendor/bin/ks:$(TARGET_COPY_OUT_VENDOR)/bin/ks \
     vendor/nothing/phone1/proprietary/vendor/bin/loadalgo:$(TARGET_COPY_OUT_VENDOR)/bin/loadalgo \
     vendor/nothing/phone1/proprietary/vendor/bin/lowirpcd:$(TARGET_COPY_OUT_VENDOR)/bin/lowirpcd \
-    vendor/nothing/phone1/proprietary/vendor/bin/modemManager:$(TARGET_COPY_OUT_VENDOR)/bin/modemManager \
     vendor/nothing/phone1/proprietary/vendor/bin/mutualex:$(TARGET_COPY_OUT_VENDOR)/bin/mutualex \
     vendor/nothing/phone1/proprietary/vendor/bin/netmgrd:$(TARGET_COPY_OUT_VENDOR)/bin/netmgrd \
     vendor/nothing/phone1/proprietary/vendor/bin/ntf-service:$(TARGET_COPY_OUT_VENDOR)/bin/ntf-service \
@@ -361,7 +278,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/phone1/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
     vendor/nothing/phone1/proprietary/vendor/etc/init/android.hardware.keymaster@4.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.1-service-qti.rc \
     vendor/nothing/phone1/proprietary/vendor/etc/init/android.hardware.nfc_snxxx@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.nfc_snxxx@1.2-service.rc \
-    vendor/nothing/phone1/proprietary/vendor/etc/init/android.hardware.secure_element_snxxx@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element_snxxx@1.2-service.rc \
     vendor/nothing/phone1/proprietary/vendor/etc/init/cnd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/cnd.rc \
     vendor/nothing/phone1/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
     vendor/nothing/phone1/proprietary/vendor/etc/init/dataadpl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataadpl.rc \
@@ -470,6 +386,7 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/phone1/proprietary/vendor/etc/media_profiles_yupik_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_yupik_v1.xml \
     vendor/nothing/phone1/proprietary/vendor/etc/media_yupik_v0/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_yupik_v0/video_system_specs.json \
     vendor/nothing/phone1/proprietary/vendor/etc/media_yupik_v1/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_yupik_v1/video_system_specs.json \
+    vendor/nothing/phone1/proprietary/vendor/etc/permissions/com.nothing.features_vnd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.nothing.features_vnd.xml \
     vendor/nothing/phone1/proprietary/vendor/etc/permissions/com.nxp.nfc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.nxp.nfc.xml \
     vendor/nothing/phone1/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
     vendor/nothing/phone1/proprietary/vendor/etc/qcril_database/qcrilNr.db:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/qcrilNr.db \
@@ -1024,7 +941,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/phone1/proprietary/vendor/lib64/com.qualcomm.qti.uceservice@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.uceservice@2.2.so \
     vendor/nothing/phone1/proprietary/vendor/lib64/com.qualcomm.qti.uceservice@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.uceservice@2.3.so \
     vendor/nothing/phone1/proprietary/vendor/lib64/deviceInfoServiceModuleNr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/deviceInfoServiceModuleNr.so \
-    vendor/nothing/phone1/proprietary/vendor/lib64/ese_spi_nxp_snxxx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ese_spi_nxp_snxxx.so \
     vendor/nothing/phone1/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/nothing/phone1/proprietary/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so \
     vendor/nothing/phone1/proprietary/vendor/lib64/hw/audio.bluetooth_qti.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.bluetooth_qti.default.so \
@@ -1101,14 +1017,22 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/phone1/proprietary/vendor/lib64/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadsprpc.so \
     vendor/nothing/phone1/proprietary/vendor/lib64/libaidenoiser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaidenoiser.so \
     vendor/nothing/phone1/proprietary/vendor/lib64/libaidenoiserv2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaidenoiserv2.so \
+    vendor/nothing/phone1/proprietary/vendor/lib64/libarcsoft_aiscenedetection.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_aiscenedetection.so \
+    vendor/nothing/phone1/proprietary/vendor/lib64/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_beautyshot.so \
+    vendor/nothing/phone1/proprietary/vendor/lib64/libarcsoft_dark_vision_raw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dark_vision_raw.so \
     vendor/nothing/phone1/proprietary/vendor/lib64/libarcsoft_dualcam_refocus_image.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dualcam_refocus_image.so \
     vendor/nothing/phone1/proprietary/vendor/lib64/libarcsoft_dualcam_refocus_video.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dualcam_refocus_video.so \
     vendor/nothing/phone1/proprietary/vendor/lib64/libarcsoft_hdr_detection.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_hdr_detection.so \
     vendor/nothing/phone1/proprietary/vendor/lib64/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_high_dynamic_range.so \
+    vendor/nothing/phone1/proprietary/vendor/lib64/libarcsoft_low_light_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_low_light_hdr.so \
+    vendor/nothing/phone1/proprietary/vendor/lib64/libarcsoft_mf_superresolution.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_mf_superresolution.so \
     vendor/nothing/phone1/proprietary/vendor/lib64/libarcsoft_night_video.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_night_video.so \
+    vendor/nothing/phone1/proprietary/vendor/lib64/libarcsoft_portrait_distortion_correction.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_portrait_distortion_correction.so \
     vendor/nothing/phone1/proprietary/vendor/lib64/libarcsoft_portrait_super_night_raw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_portrait_super_night_raw.so \
     vendor/nothing/phone1/proprietary/vendor/lib64/libarcsoft_singlecam_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_singlecam_bokeh.so \
     vendor/nothing/phone1/proprietary/vendor/lib64/libarcsoft_super_night_raw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_super_night_raw.so \
+    vendor/nothing/phone1/proprietary/vendor/lib64/libarcsoft_superportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_superportrait.so \
+    vendor/nothing/phone1/proprietary/vendor/lib64/libarcsoft_watermark.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_watermark.so \
     vendor/nothing/phone1/proprietary/vendor/lib64/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudcal.so \
     vendor/nothing/phone1/proprietary/vendor/lib64/libaudio_log_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudio_log_utils.so \
     vendor/nothing/phone1/proprietary/vendor/lib64/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioalsa.so \
@@ -1205,6 +1129,7 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/phone1/proprietary/vendor/lib64/libmmcamera_pdpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_pdpc.so \
     vendor/nothing/phone1/proprietary/vendor/lib64/libmmosal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmosal.so \
     vendor/nothing/phone1/proprietary/vendor/lib64/libmorpho_MotionSensor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_MotionSensor.so \
+    vendor/nothing/phone1/proprietary/vendor/lib64/libmouth_mask_detection.arcsoft.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmouth_mask_detection.arcsoft.so \
     vendor/nothing/phone1/proprietary/vendor/lib64/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpbase.so \
     vendor/nothing/phone1/proprietary/vendor/lib64/libmulawdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmulawdec.so \
     vendor/nothing/phone1/proprietary/vendor/lib64/libnanopb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnanopb.so \
