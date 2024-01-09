@@ -7,11 +7,9 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/nothing/phone1/proprietary/odm/etc/aac_richtap.config:$(TARGET_COPY_OUT_ODM)/etc/aac_richtap.config \
-    vendor/nothing/phone1/proprietary/system/etc/permissions/advancedSample_camera_extensions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/advancedSample_camera_extensions.xml \
+    vendor/nothing/phone1/proprietary/system/etc/permissions/com.dirac.acs.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.dirac.acs.xml \
     vendor/nothing/phone1/proprietary/system/etc/permissions/se.dirac.acs.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/se.dirac.acs.xml \
     vendor/nothing/phone1/proprietary/system/etc/sysconfig/preinstalled-packages-dirac.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/preinstalled-packages-dirac.xml \
-    vendor/nothing/phone1/proprietary/system/lib/libmpbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmpbase.so \
-    vendor/nothing/phone1/proprietary/system/lib64/libmpbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmpbase.so \
     vendor/nothing/phone1/proprietary/system_ext/etc/hdr_config/ans_off/ans_config.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/hdr_config/ans_off/ans_config.txt \
     vendor/nothing/phone1/proprietary/system_ext/etc/hdr_config/ans_on/ans_config.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/hdr_config/ans_on/ans_config.txt \
     vendor/nothing/phone1/proprietary/system_ext/etc/hdr_config/main_inv_ls/RPP_BiquadHPF_config.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/hdr_config/main_inv_ls/RPP_BiquadHPF_config.txt \
@@ -114,6 +112,7 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/phone1/proprietary/system_ext/etc/hdr_config/wnr_off/wnr_params.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/hdr_config/wnr_off/wnr_params.txt \
     vendor/nothing/phone1/proprietary/system_ext/etc/hdr_config/wnr_on/wnr_config.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/hdr_config/wnr_on/wnr_config.txt \
     vendor/nothing/phone1/proprietary/system_ext/etc/hdr_config/wnr_on/wnr_params.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/hdr_config/wnr_on/wnr_params.txt \
+    vendor/nothing/phone1/proprietary/system_ext/etc/permissions/advancedSample_camera_extensions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/advancedSample_camera_extensions.xml \
     vendor/nothing/phone1/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/nothing/phone1/proprietary/system_ext/lib/libencoderjpeg_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libencoderjpeg_jni.so \
     vendor/nothing/phone1/proprietary/system_ext/lib64/libencoderjpeg_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libencoderjpeg_jni.so \
@@ -162,6 +161,7 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/phone1/proprietary/vendor/bin/lowirpcd:$(TARGET_COPY_OUT_VENDOR)/bin/lowirpcd \
     vendor/nothing/phone1/proprietary/vendor/bin/mutualex:$(TARGET_COPY_OUT_VENDOR)/bin/mutualex \
     vendor/nothing/phone1/proprietary/vendor/bin/netmgrd:$(TARGET_COPY_OUT_VENDOR)/bin/netmgrd \
+    vendor/nothing/phone1/proprietary/vendor/bin/nqnfcinfo:$(TARGET_COPY_OUT_VENDOR)/bin/nqnfcinfo \
     vendor/nothing/phone1/proprietary/vendor/bin/ntf-service:$(TARGET_COPY_OUT_VENDOR)/bin/ntf-service \
     vendor/nothing/phone1/proprietary/vendor/bin/pd-mapper:$(TARGET_COPY_OUT_VENDOR)/bin/pd-mapper \
     vendor/nothing/phone1/proprietary/vendor/bin/pm-proxy:$(TARGET_COPY_OUT_VENDOR)/bin/pm-proxy \
@@ -326,8 +326,12 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/phone1/proprietary/vendor/etc/init/vendor.sensors.sscrpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.sscrpcd.rc \
     vendor/nothing/phone1/proprietary/vendor/etc/init/vppservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vppservice.rc \
     vendor/nothing/phone1/proprietary/vendor/etc/init/wfdvndservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wfdvndservice.rc \
+    vendor/nothing/phone1/proprietary/vendor/etc/libnfc-mtp-SN100.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-SN100.conf \
+    vendor/nothing/phone1/proprietary/vendor/etc/libnfc-mtp-SN100_38_4MHZ.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-SN100_38_4MHZ.conf \
     vendor/nothing/phone1/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/nothing/phone1/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
+    vendor/nothing/phone1/proprietary/vendor/etc/libnfc-qrd-SN100.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-qrd-SN100.conf \
+    vendor/nothing/phone1/proprietary/vendor/etc/libnfc-qrd-SN100_38_4MHZ.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-qrd-SN100_38_4MHZ.conf \
     vendor/nothing/phone1/proprietary/vendor/etc/lvacfs_params/1mic/LVACFS_Calibration360.dat:$(TARGET_COPY_OUT_VENDOR)/etc/lvacfs_params/1mic/LVACFS_Calibration360.dat \
     vendor/nothing/phone1/proprietary/vendor/etc/lvacfs_params/1mic/LVACFS_Configuration.txt:$(TARGET_COPY_OUT_VENDOR)/etc/lvacfs_params/1mic/LVACFS_Configuration.txt \
     vendor/nothing/phone1/proprietary/vendor/etc/lvacfs_params/1mic/LVIMFS_Parameter_xxxx_ID10_He_USB_Digital_48K.txt:$(TARGET_COPY_OUT_VENDOR)/etc/lvacfs_params/1mic/LVIMFS_Parameter_xxxx_ID10_He_USB_Digital_48K.txt \
@@ -722,6 +726,7 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/phone1/proprietary/vendor/lib/libmmosal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmosal.so \
     vendor/nothing/phone1/proprietary/vendor/lib/libmmrtpdecoder_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmrtpdecoder_proprietary.so \
     vendor/nothing/phone1/proprietary/vendor/lib/libmmrtpencoder_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmrtpencoder_proprietary.so \
+    vendor/nothing/phone1/proprietary/vendor/lib/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpbase.so \
     vendor/nothing/phone1/proprietary/vendor/lib/libmulawdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmulawdec.so \
     vendor/nothing/phone1/proprietary/vendor/lib/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcci_legacy.so \
     vendor/nothing/phone1/proprietary/vendor/lib/libqmi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi.so \
@@ -739,6 +744,7 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/phone1/proprietary/vendor/lib/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtigef.so \
     vendor/nothing/phone1/proprietary/vendor/lib/libsmemlog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmemlog.so \
     vendor/nothing/phone1/proprietary/vendor/lib/libsmwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmwrapper.so \
+    vendor/nothing/phone1/proprietary/vendor/lib/libsn100u_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsn100u_fw.so \
     vendor/nothing/phone1/proprietary/vendor/lib/libssrec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssrec.so \
     vendor/nothing/phone1/proprietary/vendor/lib/libstagefright_soft_qtiflacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_qtiflacdec.so \
     vendor/nothing/phone1/proprietary/vendor/lib/libsurround_3mic_proc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsurround_3mic_proc.so \
@@ -1020,6 +1026,7 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/phone1/proprietary/vendor/lib64/libarcsoft_dark_vision_raw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dark_vision_raw.so \
     vendor/nothing/phone1/proprietary/vendor/lib64/libarcsoft_dualcam_refocus_image.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dualcam_refocus_image.so \
     vendor/nothing/phone1/proprietary/vendor/lib64/libarcsoft_dualcam_refocus_video.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dualcam_refocus_video.so \
+    vendor/nothing/phone1/proprietary/vendor/lib64/libarcsoft_faceid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_faceid.so \
     vendor/nothing/phone1/proprietary/vendor/lib64/libarcsoft_hdr_detection.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_hdr_detection.so \
     vendor/nothing/phone1/proprietary/vendor/lib64/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_high_dynamic_range.so \
     vendor/nothing/phone1/proprietary/vendor/lib64/libarcsoft_low_light_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_low_light_hdr.so \
@@ -1377,6 +1384,7 @@ PRODUCT_PACKAGES += \
     libfastcvopt \
     libthermalclient \
     DiracAudioControlService \
+    DiracAudioControlService_DMP \
     NothingDiracService \
     CACertService \
     CneApp \
@@ -1385,8 +1393,8 @@ PRODUCT_PACKAGES += \
     TimeService \
     HotwordEnrollmentOKGoogleHEXAGON \
     HotwordEnrollmentXGoogleHEXAGON \
-    androidx.camera.extensions.impl.advanced \
     com.nxp.nfc \
+    androidx.camera.extensions.impl.advanced \
     com.android.hotwordenrollment.common.util \
     manifest_android.hardware.drm@1.3-service.widevine \
     vendor.noth.hardware.sensor.sensor_extension@1.0-service \

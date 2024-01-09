@@ -57,6 +57,17 @@ android_app_import {
 }
 
 android_app_import {
+	name: "DiracAudioControlService_DMP",
+	owner: "nothing",
+	apk: "proprietary/system/priv-app/DiracAudioControlService_DMP/DiracAudioControlService_DMP.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
 	name: "NothingDiracService",
 	owner: "nothing",
 	apk: "proprietary/system/priv-app/NothingDiracService/NothingDiracService.apk",
@@ -147,15 +158,16 @@ android_app_import {
 }
 
 dex_import {
-	name: "androidx.camera.extensions.impl.advanced",
-	owner: "nothing",
-	jars: ["proprietary/system/framework/androidx.camera.extensions.impl.advanced.jar"],
-}
-
-dex_import {
 	name: "com.nxp.nfc",
 	owner: "nothing",
 	jars: ["proprietary/system/framework/com.nxp.nfc.jar"],
+}
+
+dex_import {
+	name: "androidx.camera.extensions.impl.advanced",
+	owner: "nothing",
+	jars: ["proprietary/system_ext/framework/androidx.camera.extensions.impl.advanced.jar"],
+	system_ext_specific: true,
 }
 
 dex_import {
