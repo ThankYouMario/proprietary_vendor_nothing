@@ -46,17 +46,6 @@ cc_prebuilt_library_shared {
 }
 
 android_app_import {
-	name: "DiracAudioControlService",
-	owner: "nothing",
-	apk: "proprietary/system/priv-app/DiracAudioControlService/DiracAudioControlService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
 	name: "DiracAudioControlService_DMP",
 	owner: "nothing",
 	apk: "proprietary/system/priv-app/DiracAudioControlService_DMP/DiracAudioControlService_DMP.apk",
@@ -68,9 +57,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "NothingDiracService",
+	name: "NothingDiracService_DMP",
 	owner: "nothing",
-	apk: "proprietary/system/priv-app/NothingDiracService/NothingDiracService.apk",
+	apk: "proprietary/system/priv-app/NothingDiracService_DMP/NothingDiracService_DMP.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
