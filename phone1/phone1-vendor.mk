@@ -1398,8 +1398,8 @@ PRODUCT_PACKAGES += \
     com.nxp.nfc \
     androidx.camera.extensions.impl.advanced \
     com.android.hotwordenrollment.common.util \
-    manifest_android.hardware.drm@1.3-service.widevine \
-    vendor.noth.hardware.sensor.sensor_extension@1.0-service \
-    vendor.qti.diag.hal.service \
-    vendor.qti.hardware.limits@1.0-service \
-    vendor.qti.hardware.vibrator.service
+    manifest_android.hardware.drm@1.3-service.widevine.xml \
+    vendor.noth.hardware.sensor.sensor_extension@1.0-service.xml \
+    vendor.qti.diag.hal.service.xml \
+    vendor.qti.hardware.limits@1.0-service.xml \
+    vendor.qti.hardware.vibrator.service.xml
