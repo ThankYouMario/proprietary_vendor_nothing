@@ -5984,7 +5984,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcamximageformatutils.so"],
-			shared_libs: ["libc++", "libcutils", "liblog", "libsync", "android.hardware.graphics.common@1.1", "libhardware", "libhidlbase", "libhidltransport", "libcamera_metadata", "libcamxcommonutils", "libcamxsettingsmanager", "libqti_vndfwk_detect", "libutils", "android.hardware.graphics.allocator@4.0", "android.hardware.graphics.mapper@4.0", "libgralloc.qti", "libgralloctypes", "vendor.qti.hardware.display.allocator@4.0", "vendor.qti.hardware.display.mapper@4.0", "vendor.qti.hardware.display.mapperextensions@1.1", "libcdsprpc", "libbinder_ndk", "libdisplayconfig.qti", "vendor.qti.hardware.display.config-V2-ndk_platform", "libz", "libc", "libm", "libdl", ],
+			shared_libs: ["libc++", "libcutils", "liblog", "libsync", "android.hardware.graphics.common@1.1", "libhardware", "libhidlbase", "libhidltransport", "libcamera_metadata", "libcamxcommonutils", "libcamxsettingsmanager", "libqti_vndfwk_detect", "libutils", "android.hardware.graphics.allocator@4.0", "android.hardware.graphics.mapper@4.0", "libgralloc.qti", "libgralloctypes", "vendor.qti.hardware.display.allocator@4.0", "vendor.qti.hardware.display.mapper@4.0", "vendor.qti.hardware.display.mapperextensions@1.1", "libcdsprpc", "libbinder_ndk", "libdisplayconfig.qti", "vendor.qti.hardware.display.config-V2-ndk", "libz", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -6886,7 +6886,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libgarden.so"],
-			shared_libs: ["libgps.utils", "libloc_core", "liblocation_api", "liblog", "libdataitems", "libutils", "libbase", "libbinder_ndk", "android.hardware.gnss-V1-ndk_platform", "android.hardware.gnss@1.0", "android.hardware.gnss@1.1", "android.hardware.gnss@2.0", "android.hardware.gnss@2.1", "android.hardware.gnss.visibility_control@1.0", "android.hardware.gnss.measurement_corrections@1.0", "android.hardware.gnss.measurement_corrections@1.1", "libhidlbase", "vendor.qti.gnss-V3-ndk_platform", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libgps.utils", "libloc_core", "liblocation_api", "liblog", "libdataitems", "libutils", "libbase", "libbinder_ndk", "android.hardware.gnss-V1-ndk", "android.hardware.gnss@1.0", "android.hardware.gnss@1.1", "android.hardware.gnss@2.0", "android.hardware.gnss@2.1", "android.hardware.gnss.visibility_control@1.0", "android.hardware.gnss.measurement_corrections@1.0", "android.hardware.gnss.measurement_corrections@1.1", "libhidlbase", "vendor.qti.gnss-V3-ndk_platform", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -6903,7 +6903,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libgarden_haltests_e2e.so"],
-			shared_libs: ["libgarden", "libgps.utils", "libloc_core", "liblocation_api", "liblog", "libutils", "libbase", "libbinder_ndk", "android.hardware.gnss-V1-ndk_platform", "android.hardware.gnss@1.0", "android.hardware.gnss@1.1", "android.hardware.gnss@2.0", "android.hardware.gnss@2.1", "android.hardware.gnss.visibility_control@1.0", "android.hardware.gnss.measurement_corrections@1.0", "android.hardware.gnss.measurement_corrections@1.1", "vendor.qti.gnss-V3-ndk_platform", "libhidlbase", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libgarden", "libgps.utils", "libloc_core", "liblocation_api", "liblog", "libutils", "libbase", "libbinder_ndk", "android.hardware.gnss-V1-ndk", "android.hardware.gnss@1.0", "android.hardware.gnss@1.1", "android.hardware.gnss@2.0", "android.hardware.gnss@2.1", "android.hardware.gnss.visibility_control@1.0", "android.hardware.gnss.measurement_corrections@1.0", "android.hardware.gnss.measurement_corrections@1.1", "vendor.qti.gnss-V3-ndk_platform", "libhidlbase", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -9438,7 +9438,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libqtiidentitycredential.so"],
-			shared_libs: ["liblog", "libcutils", "libbase", "libutils", "libqcbor", "libhardware", "libkeymasterdeviceutils", "libkeymasterutils", "libhidlbase", "libcrypto", "libQSEEComAPI", "libbinder_ndk", "android.hardware.identity-V3-ndk_platform", "android.hardware.keymaster-V3-ndk_platform", "libkeymasterprovision", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["liblog", "libcutils", "libbase", "libutils", "libqcbor", "libhardware", "libkeymasterdeviceutils", "libkeymasterutils", "libhidlbase", "libcrypto", "libQSEEComAPI", "libbinder_ndk", "android.hardware.identity-V3-ndk", "android.hardware.keymaster-V3-ndk", "libkeymasterprovision", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -9472,7 +9472,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libqtikeymint.so"],
-			shared_libs: ["android.hardware.security.rkp-V1-ndk", "liblog", "libcrypto", "libhidlbase", "libutils", "libcutils", "libkeymasterdeviceutils", "libbase", "libqcbor", "libkeymaster_messages", "android.hardware.keymaster@4.0", "android.hardware.keymaster@4.1", "android.hardware.security.keymint-V1-ndk_platform", "android.hardware.security.secureclock-V1-ndk_platform", "android.hardware.security.sharedsecret-V1-ndk_platform", "libbinder_ndk", "libkeymasterutils", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["android.hardware.security.rkp-V1-ndk", "liblog", "libcrypto", "libhidlbase", "libutils", "libcutils", "libkeymasterdeviceutils", "libbase", "libqcbor", "libkeymaster_messages", "android.hardware.keymaster@4.0", "android.hardware.keymaster@4.1", "android.hardware.security.keymint-V1-ndk", "android.hardware.security.secureclock-V1-ndk", "android.hardware.security.sharedsecret-V1-ndk", "libbinder_ndk", "libkeymasterutils", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -12835,7 +12835,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.qxr-V1-ndk_platform.so"],
-			shared_libs: ["libbinder_ndk", "android.hardware.common-V2-ndk_platform", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libbinder_ndk", "android.hardware.common-V2-ndk", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -13584,7 +13584,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.vibrator.impl.so"],
-			shared_libs: ["libcutils", "libutils", "liblog", "libqtivibratoreffect", "libsoc_helper", "libbinder_ndk", "android.hardware.vibrator-V2-ndk_platform", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libcutils", "libutils", "liblog", "libqtivibratoreffect", "libsoc_helper", "libbinder_ndk", "android.hardware.vibrator-V2-ndk", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -15531,7 +15531,7 @@ cc_prebuilt_binary {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/bin/hw/android.hardware.identity-service-qti"],
-			shared_libs: ["liblog", "libcutils", "libbase", "libutils", "libhardware", "libqcbor", "libkeymasterdeviceutils", "libkeymasterutils", "libhidlbase", "libcrypto", "libQSEEComAPI", "libbinder_ndk", "libqtiidentitycredential", "android.hardware.identity-V3-ndk_platform", "android.hardware.keymaster-V3-ndk_platform", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["liblog", "libcutils", "libbase", "libutils", "libhardware", "libqcbor", "libkeymasterdeviceutils", "libkeymasterutils", "libhidlbase", "libcrypto", "libQSEEComAPI", "libbinder_ndk", "libqtiidentitycredential", "android.hardware.identity-V3-ndk", "android.hardware.keymaster-V3-ndk", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -15585,7 +15585,7 @@ cc_prebuilt_binary {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/bin/hw/android.hardware.security.keymint-service-qti"],
-			shared_libs: ["android.hardware.security.rkp-V1-ndk", "liblog", "libcutils", "libbase", "libutils", "libhardware", "libbinder_ndk", "libhidlbase", "android.hardware.keymaster@4.0", "libqtikeymint", "libcrypto", "android.hardware.security.keymint-V1-ndk_platform", "android.hardware.security.secureclock-V1-ndk_platform", "android.hardware.security.sharedsecret-V1-ndk_platform", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["android.hardware.security.rkp-V1-ndk", "liblog", "libcutils", "libbase", "libutils", "libhardware", "libbinder_ndk", "libhidlbase", "android.hardware.keymaster@4.0", "libqtikeymint", "libcrypto", "android.hardware.security.keymint-V1-ndk", "android.hardware.security.secureclock-V1-ndk", "android.hardware.security.sharedsecret-V1-ndk", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -15837,7 +15837,7 @@ cc_prebuilt_binary {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/bin/hw/vendor.qti.hardware.vibrator.service"],
-			shared_libs: ["libcutils", "libutils", "libbase", "libbinder_ndk", "android.hardware.vibrator-V2-ndk_platform", "vendor.aac.hardware.richtap.vibrator-V1-ndk_platform", "vendor.qti.hardware.vibrator.impl", "libaacvibrator", "liblog", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libcutils", "libutils", "libbase", "libbinder_ndk", "android.hardware.vibrator-V2-ndk", "vendor.aac.hardware.richtap.vibrator-V1-ndk_platform", "vendor.qti.hardware.vibrator.impl", "libaacvibrator", "liblog", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
