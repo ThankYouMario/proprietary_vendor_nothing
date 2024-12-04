@@ -3637,7 +3637,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so"],
-			shared_libs: ["libbase", "libcutils", "libhidlbase", "liblog", "libutils", "vendor.qti.esepowermanager@1.0", "vendor.qti.esepowermanager@1.1", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libbase", "libcutils", "libhidlbase", "liblog", "libutils", "libesepmconfig", "vendor.qti.esepowermanager@1.0", "vendor.qti.esepowermanager@1.1", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -4248,24 +4248,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libMapService.so"],
-			shared_libs: ["libcdsprpc", "libdl", "liblog", "libm", "libc", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libPlatformValidatorShared",
-	owner: "nothing",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libPlatformValidatorShared.so"],
-			shared_libs: ["liblog", "libdl", "libm", "libc", ],
+			shared_libs: ["libcdsprpc", "libdl", "liblog", "libc", ],
 		},
 	},
 	compile_multilib: "64",
@@ -4342,159 +4325,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libQnnChrometraceProfilingReader",
-	owner: "nothing",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libQnnChrometraceProfilingReader.so"],
-			shared_libs: ["liblog", "libdl", "libm", "libc", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libQnnCpu",
-	owner: "nothing",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libQnnCpu.so"],
-			shared_libs: ["libdl", "liblog", "libm", "libc", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libQnnDsp",
-	owner: "nothing",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libQnnDsp.so"],
-			shared_libs: ["liblog", "libdl", "libm", "libc", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libQnnDspNetRunExtensions",
-	owner: "nothing",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libQnnDspNetRunExtensions.so"],
-			shared_libs: ["liblog", "libdl", "libm", "libc", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libQnnGpu",
-	owner: "nothing",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libQnnGpu.so"],
-			shared_libs: ["liblog", "libdl", "libEGL", "libGLESv2", "libm", "libc", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libQnnGpuNetRunExtensions",
-	owner: "nothing",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libQnnGpuNetRunExtensions.so"],
-			shared_libs: ["liblog", "libdl", "libm", "libc", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libQnnGpuProfilingReader",
-	owner: "nothing",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libQnnGpuProfilingReader.so"],
-			shared_libs: ["liblog", "libdl", "libm", "libc", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libQnnHta",
-	owner: "nothing",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libQnnHta.so"],
-			shared_libs: ["liblog", "libdl", "libm", "libc", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libQnnHtaNetRunExtensions",
-	owner: "nothing",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libQnnHtaNetRunExtensions.so"],
-			shared_libs: ["liblog", "libdl", "libm", "libc", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libQnnHtp",
 	owner: "nothing",
 	strip: {
@@ -4503,57 +4333,6 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libQnnHtp.so"],
-			shared_libs: ["liblog", "libdl", "libm", "libc", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libQnnHtpNetRunExtensions",
-	owner: "nothing",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libQnnHtpNetRunExtensions.so"],
-			shared_libs: ["liblog", "libdl", "libm", "libc", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libQnnHtpPrepare",
-	owner: "nothing",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libQnnHtpPrepare.so"],
-			shared_libs: ["liblog", "libdl", "libm", "libc", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libQnnHtpProfilingReader",
-	owner: "nothing",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libQnnHtpProfilingReader.so"],
 			shared_libs: ["liblog", "libdl", "libm", "libc", ],
 		},
 	},
@@ -4572,40 +4351,6 @@ cc_prebuilt_library_shared {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libQnnHtpV69Stub.so"],
 			shared_libs: ["libcdsprpc", "liblog", "libdl", "libm", "libc", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libQnnSaver",
-	owner: "nothing",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libQnnSaver.so"],
-			shared_libs: ["liblog", "libdl", "libm", "libc", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libQnnSystem",
-	owner: "nothing",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libQnnSystem.so"],
-			shared_libs: ["liblog", "libdl", "libm", "libc", ],
 		},
 	},
 	compile_multilib: "64",
@@ -4656,7 +4401,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libStereoRectifyWrapper.so"],
-			shared_libs: ["liblog", "libdl", "libc", ],
+			shared_libs: ["libdl", "liblog", "libc", ],
 		},
 	},
 	compile_multilib: "64",
@@ -5585,57 +5330,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libasn1cper",
-	owner: "nothing",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libasn1cper.so"],
-			shared_libs: ["libasn1crtx", "libasn1crt", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libasn1crt",
-	owner: "nothing",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libasn1crt.so"],
-			shared_libs: ["libasn1crtx", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libasn1crtx",
-	owner: "nothing",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libasn1crtx.so"],
-			shared_libs: ["libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libats",
 	owner: "nothing",
 	strip: {
@@ -5848,7 +5542,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcamxcommonutils.so"],
-			shared_libs: ["libc++", "libcutils", "liblog", "libsync", "libutils", "libutilscallstack", "libz", "libc", "libm", "libdl", ],
+			shared_libs: ["libc++", "libcutils", "liblog", "libsync", "libutils", "libutilscallstack", "libqti_vndfwk_detect", "libz", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -6708,23 +6402,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libengineerjni",
-	owner: "nothing",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libengineerjni.so"],
-			shared_libs: ["liblog", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libengineplugin",
 	owner: "nothing",
 	strip: {
@@ -6742,6 +6419,23 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "libesepmconfig",
+	owner: "nothing",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libesepmconfig.so"],
+			shared_libs: ["libhidlbase", "liblog", "libutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libesesbprovision",
 	owner: "nothing",
 	strip: {
@@ -6750,7 +6444,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libesesbprovision.so"],
-			shared_libs: ["libhidlbase", "libQSEEComAPI", "vendor.qti.esepowermanager@1.1", "libqcbor", "libcutils", "liblog", "libqmi_cci", "libqmiservices", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libhidlbase", "libQSEEComAPI", "libesepmconfig", "vendor.qti.esepowermanager@1.1", "libqcbor", "libcutils", "libutils", "liblog", "libqmi_cci", "libqmiservices", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -7075,23 +6769,6 @@ cc_prebuilt_library_shared {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libhme.so"],
 			shared_libs: ["libc++", "libcutils", "liblog", "libsync", "android.hardware.graphics.common@1.1", "libhardware", "libhidlbase", "libhidltransport", "libcamera_metadata", "libcamxcommonutils", "libcamxsettingsmanager", "libqti_vndfwk_detect", "libutils", "android.hardware.graphics.allocator@4.0", "android.hardware.graphics.mapper@4.0", "libgralloc.qti", "libgralloctypes", "vendor.qti.hardware.display.allocator@4.0", "vendor.qti.hardware.display.mapper@4.0", "vendor.qti.hardware.display.mapperextensions@1.1", "libcdsprpc", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libhta_hexagon_runtime_qnn",
-	owner: "nothing",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libhta_hexagon_runtime_qnn.so"],
-			shared_libs: ["libm", "liblog", "libcdsprpc", "libdl", "libc", ],
 		},
 	},
 	compile_multilib: "64",
@@ -7448,7 +7125,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libloc_eng_hub.so"],
-			shared_libs: ["libgps.utils", "liblog", "libizat_core", "libgnsspps", "libdiag", "liblocdiagiface", "libutils", "libloc_util", "libcdfw", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libgps.utils", "liblog", "libizat_core", "libgnsspps", "libdiag", "liblocdiagiface", "libutils", "libloc_util", "libcdfw", "libloc_core", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -7942,7 +7619,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libmmcamera_lut2d.so"],
-			shared_libs: ["libc++", "libcutils", "liblog", "libsync", "android.hardware.graphics.common@1.1", "libhardware", "libhidlbase", "libhidltransport", "libcamera_metadata", "libcamxcommonutils", "libcamxsettingsmanager", "libqti_vndfwk_detect", "libutils", "android.hardware.graphics.allocator@4.0", "android.hardware.graphics.mapper@4.0", "libgralloc.qti", "libgralloctypes", "vendor.qti.hardware.display.allocator@4.0", "vendor.qti.hardware.display.mapper@4.0", "vendor.qti.hardware.display.mapperextensions@1.1", "libcdsprpc", "libc", "libm", "libdl", ],
+			shared_libs: ["libc++", "libcutils", "liblog", "libsync", "android.hardware.graphics.common@1.1", "libhardware", "libhidlbase", "libhidltransport", "libcamera_metadata", "libcamxcommonutils", "libcamxsettingsmanager", "libqti_vndfwk_detect", "libutils", "android.hardware.graphics.allocator@4.0", "android.hardware.graphics.mapper@4.0", "libgralloc.qti", "libgralloctypes", "vendor.qti.hardware.display.allocator@4.0", "vendor.qti.hardware.display.mapper@4.0", "vendor.qti.hardware.display.mapperextensions@1.1", "libcdsprpc", "libfastcvopt", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -9566,23 +9243,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libqvr_hostcontroller_plugin",
-	owner: "nothing",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libqvr_hostcontroller_plugin.so"],
-			shared_libs: ["libqvrservice", "libhidlbase", "libnativewindow", "android.frameworks.sensorservice@1.0", "android.hardware.graphics.allocator@4.0", "android.hardware.graphics.mapper@4.0", "android.hardware.sensors@1.0", "android.hardware.sensors@2.0", "libc++", "libcutils", "liblog", "libutils", "libjsoncpp", "libprotobuf-cpp-full-3.9.1-vendorcompat", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libqvrcamera_client.qti",
 	owner: "nothing",
 	strip: {
@@ -9608,7 +9268,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libqvrservice.so"],
-			shared_libs: ["liblog", "libutils", "libcutils", "libnativewindow", "libjsoncpp", "android.hardware.graphics.mapper@4.0", "android.hardware.graphics.allocator@4.0", "libprotobuf-cpp-full-3.9.1-vendorcompat", "libhidlbase", "libhardware", "libbinder", "libbase", "libbinder_ndk", "vendor.qti.hardware.qxr-V1-ndk_platform_vendor", "android.hardware.sensors@1.0", "android.frameworks.sensorservice@1.0", "android.hardware.sensors@2.0", "libdrm", "libhwbinder", "libui", "libfmq", "libcamera_metadata", "android.hardware.camera.provider@2.4", "android.hardware.camera.device@3.2", "android.hardware.camera.device@3.4", "android.hardware.camera.common@1.0", "libqvrcamera_client.qti", "android.hardware.thermal@1.0", "android.hardware.thermal@2.0", "libusbhost", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["liblog", "libutils", "libcutils", "libnativewindow", "libjsoncpp", "android.hardware.graphics.mapper@4.0", "android.hardware.graphics.allocator@4.0", "libhidlbase", "libhardware", "libbase", "libbinder_ndk", "vendor.qti.hardware.qxr-V1-ndk_platform_vendor", "libdrm", "libui", "android.hardware.thermal@1.0", "android.hardware.thermal@2.0", "libusbhost", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -10170,6 +9830,23 @@ cc_prebuilt_library_shared {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libsns_registry_skel.so"],
 			shared_libs: ["libcutils", "liblog", "libutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libsnsapi-full",
+	owner: "nothing",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libsnsapi-full.so"],
+			shared_libs: ["libprotobuf-cpp-full-3.9.1-vendorcompat", "libcutils", "libutils", "libqmi_common_so", "libqmi_cci", "libqmi_encdec", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -11249,40 +10926,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libxtwifi_server_protocol",
-	owner: "nothing",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libxtwifi_server_protocol.so"],
-			shared_libs: ["libcutils", "libasn1cper", "libasn1crt", "libasn1crtx", "libloc_core", "libgps.utils", "liblog", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libxtwifi_server_protocol_uri_v3",
-	owner: "nothing",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libxtwifi_server_protocol_uri_v3.so"],
-			shared_libs: ["libcutils", "liblog", "libgps.utils", "libasn1cper", "libasn1crt", "libasn1crtx", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "ls_client",
 	owner: "nothing",
 	strip: {
@@ -11557,15 +11200,15 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libdiraceffect-afm",
+	name: "libdiraceffect_NT",
 	owner: "nothing",
 	strip: {
 		none: true,
 	},
 	target: {
 		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/soundfx/libdiraceffect-afm.so"],
-			shared_libs: ["libdirac", "liblog", "libm", "libdl", "libc", ],
+			srcs: ["proprietary/vendor/lib64/soundfx/libdiraceffect_NT.so"],
+			shared_libs: ["libdirac", "libcutils", "libutils", "libbase", "libaudioutils", "liblog", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -11998,6 +11641,23 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "vendor.qti.gnss-V5-ndk_platform",
+	owner: "nothing",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/vendor.qti.gnss-V5-ndk_platform.so"],
+			shared_libs: ["libbinder_ndk", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "vendor.qti.gnss-service",
 	owner: "nothing",
 	strip: {
@@ -12006,7 +11666,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.gnss-service.so"],
-			shared_libs: ["libbase", "libbinder_ndk", "vendor.qti.gnss-V3-ndk_platform", "liblog", "libcutils", "libutils", "libloc_core", "libgps.utils", "liblocation_api", "liblocationservice_glue", "liblbs_core", "libdataitems", "liblocationservice", "libxtadapter", "libizat_core", "libizat_client_api", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libbase", "libbinder_ndk", "vendor.qti.gnss-V5-ndk_platform", "liblog", "libcutils", "libutils", "libloc_core", "libgps.utils", "liblocation_api", "liblocationservice_glue", "liblbs_core", "libdataitems", "liblocationservice", "libxtadapter", "libizat_core", "libizat_client_api", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -13584,7 +13244,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.vibrator.impl.so"],
-			shared_libs: ["libcutils", "libutils", "liblog", "libqtivibratoreffect", "libsoc_helper", "libbinder_ndk", "android.hardware.vibrator-V2-ndk", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["android.hardware.vibrator-V2-ndk", "libcutils", "libutils", "liblog", "libqtivibratoreffect", "libsoc_helper", "libbinder_ndk", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -14980,20 +14640,9 @@ cc_prebuilt_library_shared {
 }
 
 android_app_import {
-	name: "DiracAudioControlService_DMP",
+	name: "NothingAudioEffectService",
 	owner: "nothing",
-	apk: "proprietary/system/priv-app/DiracAudioControlService_DMP/DiracAudioControlService_DMP.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
-	name: "NothingDiracService_DMP",
-	owner: "nothing",
-	apk: "proprietary/system/priv-app/NothingDiracService_DMP/NothingDiracService_DMP.apk",
+	apk: "proprietary/system/priv-app/NothingAudioEffectService/NothingAudioEffectService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -15639,7 +15288,7 @@ cc_prebuilt_binary {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/bin/hw/vendor.qti.esepowermanager@1.1-service"],
-			shared_libs: ["libcutils", "libbase", "libutils", "libhardware_legacy", "libhardware", "libQSEEComAPI", "liblog", "libhidlbase", "android.hardware.nfc@1.2", "vendor.qti.esepowermanager@1.1", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libcutils", "libbase", "libutils", "libhardware_legacy", "libhardware", "liblog", "libhidlbase", "libQSEEComAPI", "libesepmconfig", "vendor.qti.esepowermanager@1.1", "vendor.qti.esepowermanager@1.1-impl", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -16297,7 +15946,7 @@ cc_prebuilt_binary {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/bin/qvrdatalogger"],
-			shared_libs: ["liblog", "libutils", "libcutils", "libui", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["liblog", "libutils", "libcutils", "libui", "libnativewindow", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "32",
@@ -16688,24 +16337,7 @@ cc_prebuilt_binary {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/bin/xtwifi-client"],
-			shared_libs: ["libcutils", "liblog", "libcrypto", "libz", "libsqlite", "libqmiservices", "libqmi_cci", "libqmi_common_so", "libgps.utils", "libloc_base_util", "libloc_mq_client", "liblowi_common", "libloc_core", "libizat_core", "liblbs_core", "libavservices_minijail", "libgdtap", "libasn1cper", "libasn1crt", "libasn1crtx", "libxtwifi_server_protocol", "libxtwifi_server_protocol_uri_v3", "liblowi_client", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	strip: {
-		none: true,
-	},
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_binary {
-	name: "xtwifi-inet-agent",
-	owner: "nothing",
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/bin/xtwifi-inet-agent"],
-			shared_libs: ["libc", "libcutils", "liblog", "libcurl", "libgps.utils", "libavservices_minijail", "libloc_base_util", "libloc_mq_client", "libc++", "libm", "libdl", ],
+			shared_libs: ["libcutils", "liblog", "libcrypto", "libz", "libsqlite", "libqmi_cci", "libqmi_common_so", "libgps.utils", "libloc_base_util", "libloc_mq_client", "liblowi_common", "libloc_core", "libizat_core", "liblbs_core", "libavservices_minijail", "libgdtap", "liblowi_client", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",

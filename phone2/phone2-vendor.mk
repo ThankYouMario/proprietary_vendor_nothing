@@ -7,8 +7,8 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/nothing/phone2/proprietary/odm/etc/aac_richtap.config:$(TARGET_COPY_OUT_ODM)/etc/aac_richtap.config \
-    vendor/nothing/phone2/proprietary/system/etc/permissions/com.dirac.acs.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.dirac.acs.xml \
-    vendor/nothing/phone2/proprietary/system/etc/sysconfig/preinstalled-packages-dirac.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/preinstalled-packages-dirac.xml \
+    vendor/nothing/phone2/proprietary/system/etc/permissions/com.nxp.nfc.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.nxp.nfc.xml \
+    vendor/nothing/phone2/proprietary/system/etc/sysconfig/preinstalled-packages-audioeffect.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/preinstalled-packages-audioeffect.xml \
     vendor/nothing/phone2/proprietary/system_ext/etc/permissions/advancedSample_camera_extensions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/advancedSample_camera_extensions.xml \
     vendor/nothing/phone2/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/nothing/phone2/proprietary/system_ext/etc/permissions/com.nothing.feature.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.nothing.feature.xml \
@@ -40,7 +40,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/phone2/proprietary/vendor/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
     vendor/nothing/phone2/proprietary/vendor/etc/bluetooth_qti_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_qti_audio_policy_configuration.xml \
     vendor/nothing/phone2/proprietary/vendor/etc/bluetooth_qti_hearing_aid_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_qti_hearing_aid_audio_policy_configuration.xml \
-    vendor/nothing/phone2/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
     vendor/nothing/phone2/proprietary/vendor/etc/camera/AI_Seg_v0.2.29.1_nothing.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/AI_Seg_v0.2.29.1_nothing.bin \
     vendor/nothing/phone2/proprietary/vendor/etc/camera/CFR_para4_Nothing_M_v100-8_AI.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para4_Nothing_M_v100-8_AI.bin \
     vendor/nothing/phone2/proprietary/vendor/etc/camera/CFR_para4_Nothing_UW_v101-5_AI.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para4_Nothing_UW_v101-5_AI.bin \
@@ -292,7 +291,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/phone2/proprietary/vendor/etc/sar/sarconfig.json:$(TARGET_COPY_OUT_VENDOR)/etc/sar/sarconfig.json \
     vendor/nothing/phone2/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
     vendor/nothing/phone2/proprietary/vendor/etc/seccomp_policy/atfwd@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/atfwd@2.0.policy \
-    vendor/nothing/phone2/proprietary/vendor/etc/seccomp_policy/gnss@2.0-xtwifi-inet-agent.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/gnss@2.0-xtwifi-inet-agent.policy \
     vendor/nothing/phone2/proprietary/vendor/etc/seccomp_policy/imsrtp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/imsrtp.policy \
     vendor/nothing/phone2/proprietary/vendor/etc/seccomp_policy/modemManager.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/modemManager.policy \
     vendor/nothing/phone2/proprietary/vendor/etc/seccomp_policy/qcrilnr@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qcrilnr@2.0.policy \
@@ -382,6 +380,7 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/phone2/proprietary/vendor/etc/sensors/config/sns_tilt_sw_disabled.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_tilt_sw_disabled.json \
     vendor/nothing/phone2/proprietary/vendor/etc/sensors/config/sns_tilt_sw_enabled.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_tilt_sw_enabled.json \
     vendor/nothing/phone2/proprietary/vendor/etc/sensors/config/sns_tilt_to_wake.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_tilt_to_wake.json \
+    vendor/nothing/phone2/proprietary/vendor/etc/sensors/config/sns_transport_ppe.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_transport_ppe.json \
     vendor/nothing/phone2/proprietary/vendor/etc/sensors/config/sns_wrist_pedo.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_wrist_pedo.json \
     vendor/nothing/phone2/proprietary/vendor/etc/sensors/config/ukee_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_ak991x_0.json \
     vendor/nothing/phone2/proprietary/vendor/etc/sensors/config/ukee_bu52053nvx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_bu52053nvx_0.json \
@@ -453,7 +452,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/phone2/proprietary/vendor/etc/wifi/vendor_cmd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/vendor_cmd.xml \
     vendor/nothing/phone2/proprietary/vendor/etc/wifi/wpa_supplicant.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant.conf \
     vendor/nothing/phone2/proprietary/vendor/etc/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
-    vendor/nothing/phone2/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
     vendor/nothing/phone2/proprietary/vendor/etc/xtwifi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/xtwifi.conf \
     vendor/nothing/phone2/proprietary/vendor/firmware/CAMERA_ICP.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b00 \
     vendor/nothing/phone2/proprietary/vendor/firmware/CAMERA_ICP.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b01 \
@@ -576,11 +574,21 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/phone2/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
     vendor/nothing/phone2/proprietary/vendor/firmware/venus.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.mbn \
     vendor/nothing/phone2/proprietary/vendor/firmware/venus_4mb.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_4mb.mbn \
+    vendor/nothing/phone2/proprietary/vendor/firmware/venus_4mb_ecdsa.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_4mb_ecdsa.mbn \
     vendor/nothing/phone2/proprietary/vendor/firmware/venus_4mb_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_4mb_unsigned.mbn \
     vendor/nothing/phone2/proprietary/vendor/firmware/venus_4mb_v6.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_4mb_v6.mbn \
+    vendor/nothing/phone2/proprietary/vendor/firmware/venus_4mb_v6_rsa.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_4mb_v6_rsa.mbn \
     vendor/nothing/phone2/proprietary/vendor/firmware/venus_4mb_v7.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_4mb_v7.mbn \
+    vendor/nothing/phone2/proprietary/vendor/firmware/venus_5mb.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_5mb.mbn \
+    vendor/nothing/phone2/proprietary/vendor/firmware/venus_5mb_ecdsa.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_5mb_ecdsa.mbn \
+    vendor/nothing/phone2/proprietary/vendor/firmware/venus_5mb_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_5mb_unsigned.mbn \
+    vendor/nothing/phone2/proprietary/vendor/firmware/venus_5mb_v6.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_5mb_v6.mbn \
+    vendor/nothing/phone2/proprietary/vendor/firmware/venus_5mb_v6_rsa.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_5mb_v6_rsa.mbn \
+    vendor/nothing/phone2/proprietary/vendor/firmware/venus_5mb_v7.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_5mb_v7.mbn \
+    vendor/nothing/phone2/proprietary/vendor/firmware/venus_ecdsa.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_ecdsa.mbn \
     vendor/nothing/phone2/proprietary/vendor/firmware/venus_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_unsigned.mbn \
     vendor/nothing/phone2/proprietary/vendor/firmware/venus_v6.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_v6.mbn \
+    vendor/nothing/phone2/proprietary/vendor/firmware/venus_v6_rsa.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_v6_rsa.mbn \
     vendor/nothing/phone2/proprietary/vendor/firmware/venus_v7.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_v7.mbn \
     vendor/nothing/phone2/proprietary/vendor/firmware/vpu20_1v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.mbn \
     vendor/nothing/phone2/proprietary/vendor/firmware/vpu20_1v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v_unsigned.mbn \
@@ -862,27 +870,12 @@ PRODUCT_PACKAGES += \
     libGPreqcancel \
     libGPreqcancel_svc \
     libMapService \
-    libPlatformValidatorShared \
     libQ6MSFR_manager_stub \
     libQSEEComAPI \
     libQTEEConnector_listener \
     libQTEEConnector_vendor \
-    libQnnChrometraceProfilingReader \
-    libQnnCpu \
-    libQnnDsp \
-    libQnnDspNetRunExtensions \
-    libQnnGpu \
-    libQnnGpuNetRunExtensions \
-    libQnnGpuProfilingReader \
-    libQnnHta \
-    libQnnHtaNetRunExtensions \
     libQnnHtp \
-    libQnnHtpNetRunExtensions \
-    libQnnHtpPrepare \
-    libQnnHtpProfilingReader \
     libQnnHtpV69Stub \
-    libQnnSaver \
-    libQnnSystem \
     libQtiRilLoadable \
     libScenescape \
     libStereoRectifyWrapper \
@@ -940,9 +933,6 @@ PRODUCT_PACKAGES += \
     libarcsoft_turbo_fusion_raw_portrait_super_night \
     libarcsoft_turbo_fusion_raw_super_night \
     libarcsoft_watermark \
-    libasn1cper \
-    libasn1crt \
-    libasn1crtx \
     libats \
     libaudio_log_utils \
     libbatterylistener \
@@ -1006,8 +996,8 @@ PRODUCT_PACKAGES += \
     libeai_float \
     libeepromcutter \
     libembmsservice \
-    libengineerjni \
     libengineplugin \
+    libesepmconfig \
     libesesbprovision \
     libeva \
     libeva_util \
@@ -1028,7 +1018,6 @@ PRODUCT_PACKAGES += \
     libhdrdynamic \
     libhdrdynamicootf \
     libhme \
-    libhta_hexagon_runtime_qnn \
     libidl \
     libipebpsstriping \
     libipebpsstriping170 \
@@ -1174,7 +1163,6 @@ PRODUCT_PACKAGES += \
     libqvr_cam_cdsp_driver_stub \
     libqvr_cdsp_driver_stub \
     libqvr_eyetracking_plugin \
-    libqvr_hostcontroller_plugin \
     libqvrcamera_client.qti \
     libqvrservice \
     libqvrservice_client.qti \
@@ -1210,6 +1198,7 @@ PRODUCT_PACKAGES += \
     libsns_device_mode_stub \
     libsns_direct_channel_stub \
     libsns_registry_skel \
+    libsnsapi-full \
     libsnsapi \
     libsnsdiaglog \
     libsoc_helper \
@@ -1273,8 +1262,6 @@ PRODUCT_PACKAGES += \
     libwvhidl \
     libxml \
     libxtadapter \
-    libxtwifi_server_protocol \
-    libxtwifi_server_protocol_uri_v3 \
     ls_client \
     libwvdrmengine \
     nfc_nci_nxp_snxxx \
@@ -1291,7 +1278,7 @@ PRODUCT_PACKAGES += \
     se_extn_client \
     sensors.ssc \
     libasphere \
-    libdiraceffect-afm \
+    libdiraceffect_NT \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
@@ -1316,6 +1303,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.esepowermanager@1.0 \
     vendor.qti.esepowermanager@1.1 \
     vendor.qti.gnss-V3-ndk_platform \
+    vendor.qti.gnss-V5-ndk_platform \
     vendor.qti.gnss-service \
     vendor.qti.hardware.AGMIPC@1.0-impl \
     vendor.qti.hardware.ListenSoundModel@1.0-impl \
@@ -1529,8 +1517,7 @@ PRODUCT_PACKAGES += \
     libvpp_vqa_networks \
     libvpt_action_recognition \
     libencoderjpeg_jni \
-    DiracAudioControlService_DMP \
-    NothingDiracService_DMP \
+    NothingAudioEffectService \
     CACertService \
     CneApp \
     IWlanService \
@@ -1641,5 +1628,4 @@ PRODUCT_PACKAGES += \
     wfdvndservice \
     wifidisplayhalservice \
     xtra-daemon \
-    xtwifi-client \
-    xtwifi-inet-agent
+    xtwifi-client
